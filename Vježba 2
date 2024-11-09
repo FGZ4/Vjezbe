@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+    <body>
+        <h1>Naslov</h1>
+        <h2>Podnaslov</h2>
+        <p>Odlomak 1</p>
+        <p>Odlomak 2</p>
+        <img src="VVG.png" alt="VVGlogo" title="VVGlogo">
+        <img src="https://vvg.hr/app/uploads/2024/11/n4-1024x471.jpg" 
+        alt="SlikaVVGstudenti" title="SlikaVVGstudenti">
+    </body>
+</html>
