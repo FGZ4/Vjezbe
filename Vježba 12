@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Programiranje web aplikacija</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Filip Grga Zrinušić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	
+	<body>	
+		<form action="adduser.php" method="post">
+			<label for="fname">First Name *</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name.." required><br>
+
+			<label for="lname">Last Name *</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name.." required><br>
+
+			<label for="mail">Email *</label>
+			<input type="text" id="mail" name="email" placeholder="Your email.." required><br>
+			
+			<label for="country">Country</label>
+			<select id="country" name="country">
+				<option value="">Please select</option>
+				<option value="BIH">Bosnia and Hercegovina</option>
+				<option value="CRO" selected>Croatia</option>
+				<option value="SLO">Slovenia</option>
+				<option value="SRB">Serbia</option>
+			</select><br>
+				
+			<label for="message">Message</label>
+			<textarea name="message" id="message" rows="3" cols="40" 
+			placeholder="Please enter your text..."></textarea>	<br>
+
+			<input type="submit" value="Pošalji">
+			<input type="reset" value="Poništi">			
+				
+
+		</form>
+
+	</body>
+
+	<footer>
+		&copy; Filip Grga Zrinušić 
+        <a href="https://github.com/FGZ4/Vjezbe"
+		target="_blank">Github</a> &amp; Vježba 12. All rights reserved.
+	</footer>
+</html>
