@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+    <body>
+        <h1>Naslov</h1>
+        <h2>Podnaslov</h2>
+        <p>Odlomak 1</p>
+        <p>Odlomak 2</p>
+
+        <figure>
+            <a target="_blank" href = "VVG.png">
+            <img src="VVG.png" alt="VVGlogo" title="VVGlogo"></a>
+            <figcaption>Logo  <a href="https://vvg.hr/" target="_blank"> VVG-a</a>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <a target="_blank" href = "https://vvg.hr/app/uploads/2024/11/n4-1024x471.jpg">
+            <img src="https://vvg.hr/app/uploads/2024/11/n4-1024x471.jpg" width ="400" height = "200"
+            alt="SlikaVVGstudenti" title="SlikaVVGstudenti"> </a>
+            <figcaption> <a href="https://vvg.hr/vijesti/studenti-pokazali-interes-za-umjetnu-inteligenciju/" 
+                target="_blank"> Članak</a> 
+                o studentima zainteresiranima za AI</figcaption>
+        </figure>
+    </body>
+</html>
