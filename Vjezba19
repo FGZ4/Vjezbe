@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+	<head>
+		<title>Programiranje web aplikacija</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Filip Grga Zrinušić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<style>
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #000;
+            line-height: 1.6;
+        }
+
+       
+        .hero {
+            position: relative;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+
+        .hero h1 {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        
+        .nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 10px;
+            background-color: #000;
+        }
+
+        .nav li {
+            margin: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 4px 2px; 
+            border: 2px solid #fff;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+            background-color: #fff;
+            color: #000;
+        }
+
+        
+        .products {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #303030;
+        }
+
+        .products h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .products p {
+            color: #ccc;
+            font-size: 16px;
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #aaa;
+            background-color: #111;
+        }
+
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32 px;
+            }
+
+            .nav {
+                flex-direction: column;
+            }
+
+            .nav li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head></style>
+	</head>
+
+
+<body style="margin: 0; padding: 0;">
+ 
+    <div class="hero">
+        <img src="https://images.pexels.com/photos/9814982/pexels-photo-9814982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Lamborgini">
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Lamborgini</h1>
+    </div> 
+
+
+    <ul class="nav">
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">Cars</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    
+    <div class="products">
+        <h2>New Lamborgini models</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+
+</body>
+
+
+<footer>
+	&copy; Filip Grga Zrinušić 
+	<a href="https://github.com/FGZ4/Vjezbe"
+	target="_blank">Github</a> &amp; Vježba. All rights reserved.
+</footer>
+
+</html>
